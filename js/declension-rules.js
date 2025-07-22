@@ -490,12 +490,12 @@ const declensionRules = {
         "ปฐมา": {
             "karaka": "แสดงลิงค์, แสดงความเป็นกัตตา คือ ผู้ทำ", "short_name": "ป.",
             "เอกวจนะ": { "suffix_orig": "สิ", "formula_general": "อิ+สิ = อิ", "explanation_general": "ลบ สิ", "final_suffix": "อิ", "meaning": "อ." }, // final_suffix เป็น "อิ" ตามตาราง
-            "พหุวจนะ": { "suffix_orig": "โย", "formula_general": "อิ+โย = อีนิ / อิ+โย = อี", "explanation_general": "ทีฆะ อิ เป็น อี, แปลง โย เป็น นิ / ทีฆะ อิ เป็น อี", "final_suffix": ["อีนิ", "อี"], "meaning": "อ." }
+            "พหุวจนะ": { "suffix_orig": "โย", "formula_general": "อิ+โย = อีนิ / อิ+โย = อี", "explanation_general": "ทีฆะ อิ เป็น อี, แปลง โย เป็น นิ / ทีฆะ อิ เป็น อี, ลบ โย", "final_suffix": ["อีนิ", "อี"], "meaning": "อ." }
         },
         "ทุติยา": {
             "karaka": "แสดงความเป็นกัมม คือ ผู้/สิ่งที่ถูกกระทำ", "short_name": "ทุ.",
             "เอกวจนะ": { "suffix_orig": "อํ", "formula_general": "อิ+อํ = อิํ", "explanation_general": "แปลง อํ เป็นนิคคหิต", "final_suffix": "ิํ", "meaning": "ซึ่ง, สู่, ยัง, สิ้น, ตลอด, กะ, เฉพาะ" }, // final_suffix เป็น "ึ" ตามตาราง
-            "พหุวจนะ": { "suffix_orig": "โย", "formula_general": "อิ+โย = อีนิ / อิ+โย = อี", "explanation_general": "ทีฆะ อิ เป็น อี, แปลง โย เป็น นิ / ทีฆะ อิ เป็น อี", "final_suffix": ["อีนิ", "อี"], "meaning": "ซึ่ง, สู่, ยัง, สิ้น, ตลอด, กะ, เฉพาะ" }
+            "พหุวจนะ": { "suffix_orig": "โย", "formula_general": "อิ+โย = อีนิ / อิ+โย = อี", "explanation_general": "ทีฆะ อิ เป็น อี, แปลง โย เป็น นิ / ทีฆะ อิ เป็น อี, ลบ โย", "final_suffix": ["อีนิ", "อี"], "meaning": "ซึ่ง, สู่, ยัง, สิ้น, ตลอด, กะ, เฉพาะ" }
         },
         "ตติยา": {
             "karaka": "แสดงความเป็นกรณ คือ เครื่องมือ/เหตุ", "short_name": "ต.",
@@ -525,7 +525,7 @@ const declensionRules = {
         "อาลปนะ": {
             "karaka": "แสดงความเป็นอาลปน คือ คำสำหรับร้องเรียก", "short_name": "อา.",
             "เอกวจนะ": { "suffix_orig": "สิ", "formula_general": "อิ+สิ = อิ", "explanation_general": "ลบ สิ", "final_suffix": "อิ", "meaning": "แน่ะ, ดูก่อน, ข้าแต่" }, // final_suffix เป็น "อิ" ตามตาราง
-            "พหุวจนะ": { "suffix_orig": "โย", "formula_general": "อิ+โย = อีนิ / อิ+โย = อี", "explanation_general": "ทีฆะ อิ เป็น อี, แปลง โย เป็น นิ / ทีฆะ อิ เป็น อี", "final_suffix": ["อีนิ", "อี"], "meaning": "แน่ะ, ดูก่อน, ข้าแต่" }
+            "พหุวจนะ": { "suffix_orig": "โย", "formula_general": "อิ+โย = อีนิ / อิ+โย = อี", "explanation_general": "ทีฆะ อิ เป็น อี, แปลง โย เป็น นิ / ทีฆะ อิ เป็น อี, ลบ โย", "final_suffix": ["อีนิ", "อี"], "meaning": "แน่ะ, ดูก่อน, ข้าแต่" }
         }
     },
 
@@ -534,12 +534,12 @@ const declensionRules = {
         "ปฐมา": {
             "karaka": "แสดงลิงค์, แสดงความเป็นกัตตา คือ ผู้ทำ", "short_name": "ป.",
             "เอกวจนะ": { "suffix_orig": "สิ", "formula_general": "อุ+สิ = อุ", "explanation_general": "ลบ สิ", "final_suffix": "อุ", "meaning": "อ." },
-            "พหุวจนะ": { "suffix_orig": "โย", "formula_general": "อุ+โย = อูนิ / อุ+โย = อู", "explanation_general": "ทีฆะ อุ เป็น อู, แปลง โย เป็น นิ / ทีฆะ อุ เป็น อู", "final_suffix": ["อูนิ", "อู"], "meaning": "อ." }
+            "พหุวจนะ": { "suffix_orig": "โย", "formula_general": "อุ+โย = อูนิ / อุ+โย = อู", "explanation_general": "ทีฆะ อุ เป็น อู, แปลง โย เป็น นิ / ทีฆะ อุ เป็น อู, ลบ โย", "final_suffix": ["อูนิ", "อู"], "meaning": "อ." }
         },
         "ทุติยา": {
             "karaka": "แสดงความเป็นกัมม คือ ผู้/สิ่งที่ถูกกระทำ", "short_name": "ทุ.",
             "เอกวจนะ": { "suffix_orig": "อํ", "formula_general": "อุ+อํ = อุํ", "explanation_general": "แปลง อํ เป็นนิคคหิต", "final_suffix": "อุํ", "meaning": "ซึ่ง, สู่, ยัง, สิ้น, ตลอด, กะ, เฉพาะ" },
-            "พหุวจนะ": { "suffix_orig": "โย", "formula_general": "อุ+โย = อูนิ / อุ+โย = อู", "explanation_general": "ทีฆะ อุ เป็น อู, แปลง โย เป็น นิ / ทีฆะ อุ เป็น อู", "final_suffix": ["อูนิ", "อู"], "meaning": "ซึ่ง, สู่, ยัง, สิ้น, ตลอด, กะ, เฉพาะ" }
+            "พหุวจนะ": { "suffix_orig": "โย", "formula_general": "อุ+โย = อูนิ / อุ+โย = อู", "explanation_general": "ทีฆะ อุ เป็น อู, แปลง โย เป็น นิ / ทีฆะ อุ เป็น อู, ลบ โย", "final_suffix": ["อูนิ", "อู"], "meaning": "ซึ่ง, สู่, ยัง, สิ้น, ตลอด, กะ, เฉพาะ" }
         },
         "ตติยา": {
             "karaka": "แสดงความเป็นกรณ คือ เครื่องมือ/เหตุ", "short_name": "ต.",
@@ -569,7 +569,7 @@ const declensionRules = {
         "อาลปนะ": {
             "karaka": "แสดงความเป็นอาลปน คือ คำสำหรับร้องเรียก", "short_name": "อา.",
             "เอกวจนะ": { "suffix_orig": "สิ", "formula_general": "อุ+สิ = อุ", "explanation_general": "ลบ สิ", "final_suffix": "อุ", "meaning": "แน่ะ, ดูก่อน, ข้าแต่" },
-            "พหุวจนะ": { "suffix_orig": "โย", "formula_general": "อุ+โย = อูนิ / อุ+โย = อู", "explanation_general": "ทีฆะ อุ เป็น อู, แปลง โย เป็น นิ / ทีฆะ อุ เป็น อู", "final_suffix": ["อูนิ", "อู"], "meaning": "แน่ะ, ดูก่อน, ข้าแต่" }
+            "พหุวจนะ": { "suffix_orig": "โย", "formula_general": "อุ+โย = อูนิ / อุ+โย = อู", "explanation_general": "ทีฆะ อุ เป็น อู, แปลง โย เป็น นิ / ทีฆะ อุ เป็น อู, ลบ โย", "final_suffix": ["อูนิ", "อู"], "meaning": "แน่ะ, ดูก่อน, ข้าแต่" }
         }
     }
 };

@@ -852,7 +852,7 @@ function getDetailedExplanation(noun, vibhatti, vacana, clickedForm, karantaType
     else if (karantaType.endsWith('-itthiling')) { lingkaText = "อิตถีลิงค์"; }
     else if (karantaType.endsWith('-napun')) { lingkaText = "นปุงสกลิงค์"; }
 
-    explanation += ` เป็น ${karantaText} ใน${lingkaText} ลง ${rule.suffix_orig} ${vibhatti}วิภัตติ ฝ่าย${vacana}วจนะ`;
+    explanation += ` เป็น ${karantaText} ใน${lingkaText} ลง ${rule.suffix_orig} ${vibhatti}วิภัตติ ฝ่าย${vacana}`;
 
     let specificProcessExplanation = "";
     const allExplanationParts = (rule.explanation_general || '').split(' / ');
