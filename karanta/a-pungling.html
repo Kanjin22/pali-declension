@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ทำตัวนามศัพท์: อ การันต์ (ปุงลิงค์)</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ทำตัวนามศัพท์: อ การันต์ (ปุงลิงค์)</h1>
+        <p><a href="../index.html">กลับหน้าแรก</a></p>
+
+        <div class="input-section">
+            <table class="input-table">
+                <tr>
+                    <td class="input-label yellow-bg">ศัพท์เดิมบาลี</td>
+                    <td><input type="text" id="nounInput" placeholder="เช่น: ปุริส, โจร"></td>
+                </tr>
+                <tr>
+                    <td class="input-label green-bg">คำแปลไทย</td>
+                    <td><input type="text" id="meaningInput" placeholder="เช่น: บุรุษ, โจร"></td>
+                </tr>
+            </table>
+            <button id="declenseButton">ทำตัว</button>
+        </div>
+
+        <div class="table-section">
+            <!-- ตารางที่ 1 และ 2 จะถูกอัปเดตด้วย JavaScript -->
+            <h2 id="formulaTableTitle">ตารางที่ 1: สูตรทำตัว (ทั่วไป)</h2>
+            <table id="formulaTable" class="declension-table">
+                <thead>
+                    <tr>
+                        <th>วิภัตติ</th>
+                        <th>เอกวจนะ</th>
+                        <th>พหุวจนะ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- เนื้อหาจะถูกสร้าง/อัปเดตด้วย JavaScript -->
+                </tbody>
+            </table>
+
+            <h2 id="explanationTableTitle">ตารางที่ 2: คำอธิบายการทำตัว (ทั่วไป)</h2>
+            <table id="explanationTable" class="declension-table">
+                <thead>
+                    <tr>
+                        <th>วิภัตติ</th>
+                        <th>เอกวจนะ</th>
+                        <th>พหุวจนะ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- เนื้อหาจะถูกสร้าง/อัปเดตด้วย JavaScript -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- ตารางที่ 3 (ผลลัพธ์) จะแสดงเมื่อมีการกดปุ่ม "ทำตัว" -->
+        <div class="table-section" id="resultSection" style="display: none;">
+            <h2>ตารางที่ 3: ผลลัพธ์การทำตัว</h2>
+            <table id="resultTable" class="declension-table">
+                <thead>
+                    <tr>
+                        <th>วิภัตติ</th>
+                        <th>เอกวจนะ</th>
+                        <th>พหุวจนะ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- เนื้อหาจะถูกสร้างด้วย JavaScript -->
+                </tbody>
+            </table>
+        </div>
+
+        <div id="detailedExplanation" class="explanation-detail" style="display: none;">
+            <h3>คำอธิบายการทำตัวโดยละเอียด:</h3>
+            <p id="detailContent"></p>
+        </div>
+    </div>
+
+    <script src="../js/declension-rules.js"></script>
+    <script src="../js/main.js"></script>
+    <script>
+        const currentKarantaType = 'a-pungling';
+        document.addEventListener('DOMContentLoaded', () => initializePage(currentKarantaType));
+    </script>
+</body>
+</html>

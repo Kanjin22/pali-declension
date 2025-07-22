@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เครื่องมือทำตัวนามศัพท์บาลี</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>เครื่องมือทำตัวนามศัพท์บาลี</h1>
+
+        <div class="section">
+            <h2>ส่วนที่ 1: เลือกการันต์และลิงค์ที่ต้องการทำตัวนามศัพท์</h2>
+            <div class="karanta-selection">
+                <!-- ปุงลิงค์ -->
+                <h2>ปุงลิงค์</h2>
+                <div class="lingka-group">
+                    <ul>
+                        <li><a href="karanta/a-pungling.html">อ การันต์ (ปุงลิงค์)</a></li>
+                        <li><a href="karanta/i-pungling.html">อิ การันต์ (ปุงลิงค์)</a></li>
+                        <li><a href="karanta/e-pungling.html">อี การันต์ (ปุงลิงค์)</a></li> 
+                        <li><a href="karanta/u-pungling.html">อุ การันต์ (ปุงลิงค์)</a></li>
+                        <li><a href="karanta/oo-pungling.html">อู การันต์ (ปุงลิงค์)</a></li>
+                    </ul>
+                </div>
+
+                <!-- อิตถีลิงค์ -->
+                <h2>อิตถีลิงค์</h2>
+                <div class="lingka-group">
+                    <ul>
+                        <li><a href="karanta/aa-itthiling.html">อา การันต์ (อิตถีลิงค์)</a></li>
+                        <li><a href="karanta/i-itthiling.html">อิ การันต์ (อิตถีลิงค์)</a></li>
+                        <li><a href="karanta/e-itthiling.html">อี การันต์ (อิตถีลิงค์)</a></li>
+                        <li><a href="karanta/u-itthiling.html">อุ การันต์ (อิตถีลิงค์)</a></li>
+                        <li><a href="karanta/oo-itthiling.html">อู การันต์ (อิตถีลิงค์)</a></li>
+                    </ul>
+                </div>
+
+                <!-- นปุงสกลิงค์ -->
+                <h2>นปุงสกลิงค์</h2>
+                <div class="lingka-group">
+                    <ul>
+                        <li><a href="karanta/a-napun.html">อ การันต์ (นปุงสกลิงค์)</a></li>
+                        <li><a href="karanta/i-napun.html">อิ การันต์ (นปุงสกลิงค์)</a></li>
+                        <li><a href="karanta/u-napun.html">อุ การันต์ (นปุงสกลิงค์)</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <hr> <!-- เส้นแบ่งส่วน -->
+
+        <div class="section">
+            <h2>ส่วนที่ 2: ตารางวิภัตตินามและคำแปล</h2>
+            <div class="table-section">
+                <h3>ตารางที่ 1: ตารางวิภัตติ ๑๔ ตัว</h3>
+                <table id="indexFormulaTable" class="declension-table">
+                    <thead>
+                        <tr>
+                            <th>วิภัตติ</th>
+                            <th>เอกวจนะ</th>
+                            <th>พหุวจนะ</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- เนื้อหาจะถูกสร้างด้วย JavaScript -->
+                    </tbody>
+                </table>
+
+            <div id="detailedExplanation" class="explanation-detail" style="display: none;">
+                <h3>คำอธิบาย:</h3>
+                <p id="detailContent"></p>
+            </div>
+
+                <h3>ตารางที่ 2: ตารางคำแปลประจำวิภัตติ</h3>
+                <table id="indexExplanationTable" class="declension-table">
+                    <thead>
+                        <tr>
+                            <th>วิภัตติ/วจนะ</th>
+                            <th>คำแปล (เอกวจนะ)</th>
+                            <th>คำแปล (พหุวจนะ)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- เนื้อหาจะถูกสร้างด้วย JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- รวมไฟล์ JavaScript ที่นี่ -->
+    <script src="js/declension-rules.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

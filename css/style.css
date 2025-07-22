@@ -1,0 +1,190 @@
+/* เพิ่มสไตล์สำหรับเส้นแบ่งส่วน */
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin: 40px 0;
+}
+
+/* เพื่อให้ section จัดการ margin และ padding ได้ง่ายขึ้น */
+.section {
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
+
+/* สไตล์สำหรับ clickable elements ที่เพิ่มใหม่ใน main.js */
+.declension-table td.clickable-form,
+.declension-table td span.clickable-vibhatti { /* เพิ่ม .clickable-vibhatti เข้ามา */
+    cursor: pointer;
+    color: #007bff;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.declension-table td.clickable-form:hover,
+.declension-table td span.clickable-vibhatti:hover { /* เพิ่ม .clickable-vibhatti เข้ามา */
+    background-color: #e7f5ff;
+}
+
+/* (คงสไตล์เดิมอื่นๆ ที่มีอยู่) */
+body {
+    font-family: 'Sarabun', 'TH Sarabun New', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.karanta-selection ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.karanta-selection li {
+    background-color: #e8f4f8;
+    border: 1px solid #b3e0ff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.karanta-selection li:hover {
+    background-color: #cceeff;
+}
+
+.karanta-selection a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    display: block;
+}
+
+.input-table {
+    margin: 0 auto 20px auto;
+    border-collapse: collapse;
+    width: auto;
+}
+
+.input-table td {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+}
+
+.input-label {
+    font-weight: bold;
+}
+
+.yellow-bg {
+    background-color: #ffff00;
+}
+
+.green-bg {
+    background-color: #92d050;
+}
+
+.input-section {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+#nounInput, #meaningInput {
+    padding: 10px;
+    font-size: 1.1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+#declenseButton {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+#declenseButton:hover {
+    background-color: #218838;
+}
+
+.declension-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.declension-table th, .declension-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.declension-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #555;
+}
+
+.declension-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.declension-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+.explanation-detail {
+    background-color: #eaf7ed;
+    border: 1px solid #d4edda;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 1.1em;
+    color: #155724;
+}
+
+.explanation-detail h3 {
+    color: #155724;
+    text-align: left;
+    margin-top: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #nounInput, #meaningInput {
+        width: 90%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
