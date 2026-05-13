@@ -554,7 +554,7 @@ function combineNounWithSuffix(noun, suffix, originalRule, karantaType) {
             "อุนา", "อูหิ", "อูภิ",
             "อุสฺส", "อุโน", "อูนํ",
             "อุสฺมา", "อุมฺหา",
-            "อุสฺมึ", "อุมฺหิ", "อูสุ"
+            "อุสฺมิํ", "อุมฺหิ", "อูสุ"
         ];
         // ตรวจสอบว่าอักขระสุดท้ายเป็น 'ุ' (สำหรับ อุ การันต์)
         if (uNapunTransformingSuffixes.includes(suffix) && lastCharNoun === 'ุ') {
