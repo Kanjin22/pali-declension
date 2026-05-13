@@ -248,7 +248,7 @@ function getTransformedEnding(lastNounChar, suffix, karantaType, nounFull) {
             case "อีนํ": return 'ีนํ'; // จตุตถี/ฉัฏฐี พหุวจนะ
             case "อิสฺมา": return 'ิสฺมา'; // ปัญจมี เอกวจนะ
             case "อิมฺหา": return 'ิมฺหา'; // ปัญจมี เอกวจนะ
-            case "อิสฺมึ": return 'ิสฺมึ'; // สัตตมี เอกวจนะ
+            case "อิสฺมิํ": return 'ิสฺมิํ'; // สัตตมี เอกวจนะ
             case "อิมฺหิ": return 'ิมฺหิ'; // สัตตมี เอกวจนะ
             case "อีสุ": return 'ีสุ'; // สัตตมี พหุวจนะ
             default: return suffix;
@@ -270,7 +270,7 @@ function getTransformedEnding(lastNounChar, suffix, karantaType, nounFull) {
             case "อูนํ": return 'ูนํ'; // จตุตถี/ฉัฏฐี พหุวจนะ
             case "อุสฺมา": return 'ุสฺมา'; // ปัญจมี เอกวจนะ
             case "อุมฺหา": return 'ุมฺหา'; // ปัญจมี เอกวจนะ
-            case "อุสฺมึ": return 'ุสฺมึ'; // สัตตมี เอกวจนะ
+            case "อุสฺมิํ": return 'ุสฺมิํ'; // สัตตมี เอกวจนะ
             case "อุมฺหิ": return 'ุมฺหิ'; // สัตตมี เอกวจนะ
             case "อูสุ": return 'ูสุ'; // สัตตมี พหุวจนะ
             default: return suffix;
@@ -520,7 +520,7 @@ function combineNounWithSuffix(noun, suffix, originalRule, karantaType) {
             "อิ", "ิํ", "อีนิ", "อี", "อินา", "อีหิ", "อีภิ",
             "อิสฺส", "อิโน", "อีนํ",
             "อิสฺมา", "อิมฺหา",
-            "อิสฺมึ", "อิมฺหิ", "อีสุ"
+            "อิสฺมิํ", "อิมฺหิ", "อีสุ"
         ];
         // ตรวจสอบว่าอักขระสุดท้ายเป็น 'ิ' (สำหรับ อิ การันต์)
         if (iNapunTransformingSuffixes.includes(suffix) && lastCharNoun === 'ิ') {
